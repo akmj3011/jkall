@@ -1,5 +1,6 @@
 
        
+       
        <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,9 +51,9 @@
 <body>
 <div class="slider-container">
     <div class="slides">
-        <div class="slide"><img src="dog.jpg" alt="Dog"></div>
-        <div class="slide"><img src="cat.jpg" alt="Cat"></div>
-        <div class="slide"><img src="lion.jpg" alt="Lion"></div>
+        <div class="slide"><img src="https://via.placeholder.com/800x400?text=Animal+1" alt="Animal 1"></div>
+        <div class="slide"><img src="https://via.placeholder.com/800x400?text=Animal+2" alt="Animal 2"></div>
+        <div class="slide"><img src="https://via.placeholder.com/800x400?text=Animal+3" alt="Animal 3"></div>
         <!-- Add more slides with different animal images as needed -->
     </div>
     <div class="prev">&#10094;</div>
