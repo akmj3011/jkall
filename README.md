@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+
+       
+        !DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -81,6 +83,14 @@
         counter--;
         slides.style.transform = 'translateX(' + (-size * counter) + 'px)';
     });
+
+    // Automatic sliding
+    setInterval(() => {
+        if (counter >= slide.length - 1) return;
+        slides.style.transition = "transform 0.5s ease-in-out";
+        counter++;
+        slides.style.transform = 'translateX(' + (-size * counter) + 'px)';
+    }, 2000);
 
     // Looping
     slides.addEventListener('transitionend', () => {
