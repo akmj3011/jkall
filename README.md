@@ -1,11 +1,11 @@
 
        
-        !DOCTYPE html>
+       <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Image Slider</title>
+<title>Animal Image Slider</title>
 <style>
     body {
         margin: 0;
@@ -50,10 +50,10 @@
 <body>
 <div class="slider-container">
     <div class="slides">
-        <div class="slide"><img src="image1.jpg" alt="Image 1"></div>
-        <div class="slide"><img src="image2.jpg" alt="Image 2"></div>
-        <div class="slide"><img src="image3.jpg" alt="Image 3"></div>
-        <!-- Add more slides as needed -->
+        <div class="slide"><img src="dog.jpg" alt="Dog"></div>
+        <div class="slide"><img src="cat.jpg" alt="Cat"></div>
+        <div class="slide"><img src="lion.jpg" alt="Lion"></div>
+        <!-- Add more slides with different animal images as needed -->
     </div>
     <div class="prev">&#10094;</div>
     <div class="next">&#10095;</div>
